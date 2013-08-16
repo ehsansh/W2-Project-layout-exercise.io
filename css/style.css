@@ -80,3 +80,15 @@ div.floor1{
 	height: 105px;
 	margin-left: auto;
 }
+/*-----------------------------Floor2-----------------------------*/
+div.floor2{
+	height: 740px;
+}
+.floor2 div.col2{
+	width: 660px;
+	height: 720px;
+}
+.floor2 section.col1{
+	width: 360px;
+	height: 740px;
+}
