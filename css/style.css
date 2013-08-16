@@ -29,10 +29,13 @@ header.container{
 	width: 980px;
 	height: 72px;
 }
+img{
+	display: block;
+}
 a.logo{
 	display: block;
 	float: left;	
-	height: 72px;
+	
 }
 menu.main{
 	list-style-type: none;
@@ -47,7 +50,7 @@ menu.main li a{
 	text-decoration: none;
 	color: rgb(112, 112, 112);
 	text-transform: uppercase;
-	font-family: OpenSansRegular;
+	font-family: OpenSansRegular,sans-serif;
 	font-size: 15px;
 	padding: 27px 20px;
 	font-variant: normal;
