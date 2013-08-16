@@ -56,3 +56,27 @@ div.floor1{
 	height: 105px;
 	margin-top: 33px;
 }
+.floor1 img{
+	width: 108px;
+	height: 108px;
+	display: block;
+	margin-right: 15px;
+	float: left;
+}
+.floor1 h1{
+	width: 217px;
+	height: 20px;
+	margin: 20px 0 5px 0;
+	font-size: 19px;
+	line-height: 20px;
+}
+.floor1 .top section.right_section{
+	width: 217px;
+	height: 125px;
+	margin-left: auto;
+}
+.floor1 .bottom section.right_section{
+	width: 217px;
+	height: 105px;
+	margin-left: auto;
+}
