@@ -29,6 +29,23 @@ header.container{
 	width: 980px;
 	height: 72px;
 }
+a.logo{
+	display: block;
+	float: left;	
+	height: 72px;
+}
+menu.main{
+	list-style-type: none;
+	margin: 0 0 0 150px;
+	padding: 0;
+}
+menu.main li{
+	float: left;
+}
+menu.main li a{
+	display: block;
+	text-decoration: none;
+}
 
 /*-----------------------------First Slideshow-----------------------------*/
 div.slidewrapper{
