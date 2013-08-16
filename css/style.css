@@ -23,3 +23,36 @@
 	width: 1080px;
 	margin: 0 auto;
 }
+
+/*-----------------------------Header-----------------------------*/
+header.container{
+	width: 980px;
+	height: 72px;
+}
+
+/*-----------------------------First Slideshow-----------------------------*/
+div.slidewrapper{
+	height: 459px;
+}
+
+/*-----------------------------Floor1-----------------------------*/
+div.floor1{
+	height: 338px;
+}
+.floor1 div.col{
+	width: 360px;
+	height: 338px;
+}
+.floor1 div.col3{
+	margin-left: 720px;
+}
+.floor1 section.top{
+	width: 340px;
+	height: 125px;
+	margin-top: 33px;
+}
+.floor1 section.bottom{
+	width: 340px;
+	height: 105px;
+	margin-top: 33px;
+}
