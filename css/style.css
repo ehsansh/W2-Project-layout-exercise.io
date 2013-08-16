@@ -1,0 +1,25 @@
+.grids > * {
+  outline: 1px dashed gray;
+}
+
+.grids > * > * {
+  outline: 1px dashed lightblue;
+}
+
+.grids > * > * > *{
+  outline: 1px dashed blue;
+}
+
+.grids > * > * > * > *{
+  outline: 1px dashed green;
+}
+
+.grids > * > * > * > * > *{
+  outline: 1px dashed red;
+}
+
+
+.container{
+	width: 1080px;
+	margin: 0 auto;
+}
