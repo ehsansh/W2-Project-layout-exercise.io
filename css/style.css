@@ -97,3 +97,14 @@ section.floor3{
 	height: 507px;
 }
 /*-----------------------------Floor4-----------------------------*/
+div.floor4{	
+	height: 361px;
+	width: 879px;
+}
+.floor4 div.col{
+	width: 293px;
+	height: 361px;
+}
+.floor4 div.col3{
+	margin-left: 586px;
+}
