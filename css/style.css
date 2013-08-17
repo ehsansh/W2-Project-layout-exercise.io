@@ -23,6 +23,23 @@
 	width: 1080px;
 	margin: 0 auto;
 }
+h1{
+	color: rgb(255, 255, 255);	
+	font-family: OpenSansLight , sans-serif;
+	font-size: 19px;	
+	margin-bottom: 5px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 20px;
+	text-transform: uppercase;
+}
+p{
+	color: rgb(255, 255, 255);
+	display: block;
+	font-family: OpenSansRegular,sans-serif;
+	font-size: 14px;
+	margin: 0px;
+}
 
 /*-----------------------------Header-----------------------------*/
 div.headwrapper{
@@ -154,9 +171,6 @@ div.floor1wrapper{
 	display: block;
 	font-family: OpenSansRegular,sans-serif;
 	font-size: 14px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: normal;	
 	margin: 0px;
 }
 .floor1_top div.col{
@@ -288,8 +302,20 @@ div.floor2{
 }
 
 /*-----------------------------Floor3-----------------------------*/
+div.floor3wrapper{
+	background-image: -webkit-radial-gradient(50% 50%, ellipse farthest-corner, rgb(0, 143, 213) 0%, rgb(0, 104, 155) 100%);
+
+}
 section.floor3{
 	height: 507px;
+}
+.floor3 h1{
+	font-size: 40px;
+	text-align: center;
+}
+.floor3 p{
+	font-size: 17px;
+	text-align: center;
 }
 /*-----------------------------Floor4-----------------------------*/
 div.floor4{	
