@@ -36,9 +36,7 @@ img{
 	display: block;
 }
 a.logo{
-	display: block;
-
-	
+	display: block;	
 }
 menu.main{
 	list-style-type: none;
@@ -46,9 +44,6 @@ menu.main{
 	margin-left:auto;
 	width: 710px;
 	padding: 0;
-}
-menu.main li{
-	float: left;
 }
 menu.main li a{
 	display: block;
@@ -63,9 +58,10 @@ menu.main li a{
 	text-transform: uppercase;
 }
 menu.main li{
+	float: left;
+	position: relative;
 	border-right: 1px solid #E0E0E0;
-	border-bottom: 2px solid transparent;
-	
+	border-bottom: 2px solid transparent;	
 }
 
 menu.main li:first-child{
@@ -100,6 +96,7 @@ img.search{
 	border: 0;
 	display: block;
 	padding: 0;
+	outline: 0;
 }
 .menusearch button{
 	display: block;
@@ -115,56 +112,75 @@ img.search{
 	left:11px;
 	background-position: -5px -7px; 
 }
+div.submenu{
+	width: 500px;
+	height: 177px;
+	background-color: gray;
+	position: absolute;
+	top:100%;
+	left: -198px;
+	display: none;
+}
+
+menu.main li:hover div.submenu{
+	display: block;
+}
+
+
+
 /*-----------------------------First Slideshow-----------------------------*/
 div.slidewrapper{
 	height: 459px;
 }
 
 /*-----------------------------Floor1-----------------------------*/
-div.floor1{
+div.floor1wrapper{
 	height: 338px;
 }
-.floor1 div.col{
-	width: 360px;
-	height: 338px;
+.floor1_top div.col{
+	height: 155px;
+	width: 340px;
+	margin: 10px;
 }
-.floor1 div.col3{
+.floor1_top div.col3{
 	margin-left: 720px;
+	margin-left: auto;
 }
-.floor1 section.top{
-	width: 340px;
-	height: 125px;
-	margin-top: 33px;
-}
-.floor1 section.bottom{
-	width: 340px;
-	height: 105px;
-	margin-top: 33px;
-}
-.floor1 img{
-	width: 108px;
-	height: 108px;
+.floor1_top div.col img{
 	display: block;
-	margin-right: 15px;
 	float: left;
+	margin-top: 30px;
 }
-.floor1 h1{
-	width: 217px;
-	height: 20px;
-	margin: 20px 0 5px 0;
-	font-size: 19px;
-	line-height: 20px;
-}
-.floor1 .top section.right_section{
+.floor1_top div.col section.child{
 	width: 217px;
 	height: 125px;
 	margin-left: auto;
+	margin-top: 30px;
 }
-.floor1 .bottom section.right_section{
-	width: 217px;
-	height: 105px;
+
+
+
+.floor1_bottom div.col{
+	height: 138px;
+	width: 340px;
+	margin: 10px;
+}
+.floor1_bottom div.col3{
+	margin-left: 720px;
 	margin-left: auto;
 }
+.floor1_bottom div.col img{
+	display: block;
+	float: left;
+	margin-top: 30px;
+}
+.floor1_bottom div.col section.child{
+	width: 217px;
+	height: 108px;
+	margin-left: auto;
+	margin-top: 30px;
+}
+
 /*-----------------------------Floor2-----------------------------*/
 div.floor2{
 	height: 740px;
