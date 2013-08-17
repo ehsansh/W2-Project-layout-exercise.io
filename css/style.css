@@ -136,6 +136,34 @@ div.slidewrapper{
 /*-----------------------------Floor1-----------------------------*/
 div.floor1wrapper{
 	height: 338px;
+	padding: 80px 0;
+	background-image: -webkit-radial-gradient(50% 50%, ellipse farthest-corner, rgb(0, 143, 213) 0%, rgb(0, 104, 155) 100%);
+}
+.floor1wrapper h1{
+	color: rgb(255, 255, 255);	
+	font-family: OpenSansLight , sans-serif;
+	font-size: 19px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;	
+	margin-bottom: 5px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 20px;
+	text-transform: uppercase;
+}
+.floor1wrapper p{
+	color: rgb(255, 255, 255);
+	display: block;
+	font-family: OpenSansRegular,sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;	
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
 }
 .floor1_top div.col{
 	height: 155px;
