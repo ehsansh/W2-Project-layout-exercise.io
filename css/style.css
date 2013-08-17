@@ -142,10 +142,7 @@ div.floor1wrapper{
 .floor1wrapper h1{
 	color: rgb(255, 255, 255);	
 	font-family: OpenSansLight , sans-serif;
-	font-size: 19px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: normal;	
+	font-size: 19px;	
 	margin-bottom: 5px;
 	margin-left: 0px;
 	margin-right: 0px;
@@ -160,10 +157,7 @@ div.floor1wrapper{
 	font-style: normal;
 	font-variant: normal;
 	font-weight: normal;	
-	margin-bottom: 0px;
-	margin-left: 0px;
-	margin-right: 0px;
-	margin-top: 0px;
+	margin: 0px;
 }
 .floor1_top div.col{
 	height: 155px;
@@ -230,38 +224,19 @@ div.floor2{
 
 .floor2 section.col1{
 	width: 360px;
-	height: 740px;
+	
 }
 .floor2 section.col1 h3{
-	border-bottom-color: rgba(255, 255, 255, 0.498039);
-	border-bottom-style: solid;
-	border-bottom-width: 1px;
-	border-left-color: rgba(255, 255, 255, 0.498039);
-	border-left-style: solid;
-	border-left-width: 0px;
-	border-right-color: rgba(255, 255, 255, 0.498039);
-	border-right-style: solid;
-	border-right-width: 0px;
-	border-top-color: rgba(255, 255, 255, 0.498039);
-	border-top-style: solid;
-	border-top-width: 1px;
+	border: 1px solid rgba(255, 255, 255, 0.498039);
 	color: rgb(255, 255, 255);
 	display: block;
 	font-family: OpenSansLight,sans-serif;
 	font-size: 30px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: normal;
 	height: 65px;
 	line-height: 30px;
+	margin: 0;
 	margin-bottom: 15px;
-	margin-left: 0px;
-	margin-right: 0px;
-	margin-top: 0px;
-	padding-bottom: 25px;
-	padding-left: 0px;
-	padding-right: 0px;
-	padding-top: 25px;
+	padding-left: 25px 0;
 	text-transform: uppercase;
 }
 .floor2 section.col1 p{
@@ -269,17 +244,48 @@ div.floor2{
 	display: block;
 	font-family: OpenSansRegular,sans-serif;
 	font-size: 14px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: normal;
 	height: 180px;
 	line-height: 20px;
-	margin-bottom: 20px;
-	margin-left: 0px;
-	margin-right: 0px;
+	margin:0;
 	margin-top: 20px;	
 }
-
+.floor2 .col1 ul{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	display: block;
+}
+.floor2 div.list{
+	height: 72px;
+}
+.floor2 .col1 ul li{
+	background-image: url('../images/ul.png');
+	background-repeat: no-repeat;
+	color: rgb(255, 255, 255);
+	display: list-item;
+	font-family: OpenSansRegular,sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+	text-transform: uppercase;	
+	padding-left: 30px;
+}
+.floor2 .col1 ul.left_ul{
+	padding-left: 5px;
+}
+.floor2 .col1 ul.right_ul{
+	margin-left: 145px;
+}
+.floor2 a.con_button{
+	display: block;
+	color: #FFF;
+	text-decoration: none;
+	padding: 8px 20px;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	background-color: rgba(0, 0, 0, 0.2);
+	margin-left: 10px;
+	margin-top: 10px;
+	width: 130px;
+}
 
 /*-----------------------------Floor3-----------------------------*/
 section.floor3{
