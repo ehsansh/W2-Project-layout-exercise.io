@@ -397,6 +397,9 @@ div.floor4{
 div.mapwrapper{
 	height: 300px;
 }
+.icon div.headwrapper {
+border-bottom: 1px solid #E0E0E0;
+}
 
 
 /*-----------------------------footer-----------------------------*/
@@ -440,6 +443,13 @@ footer a{
 div.icon_floor2{
 	min-height: 60px;
 }
+a.icon_home{
+	text-decoration: none;
+	color: #0081C1;
+}
+div.icon_home{
+	padding-top: 19px;
+}
 
 /*---------------------------icon_floor3-----------------------------------*/
 div.icon_floor3{
@@ -455,18 +465,20 @@ div.icon_floor4{
 }
 .icon_floor1 div.image,
 .icon_floor4 div.image{
-	width: 245px;
-	height: 207px;
+	width: 230px;
+	height: 192px;
+	margin: 6px;
 	float: left;
 	border-color: #DBDBDB;
 	background: #FBFBFB;
 	box-shadow: inset 1px 0px 17px rgba(20, 20, 20, 0.08);
 	color: #999;
+	border: 1px solid #DBDBDB;
 }
 .icon_floor1 div.image img,
 .icon_floor4 div.image img{
 	display: block;
-	padding: 30px 30px 10px 30px;
+	padding: 30px 20px 10px 20px;
 
 }
 .icon_floor1 a,
@@ -476,7 +488,7 @@ div.icon_floor4{
 	color: #0081C1;
 	font-size: 14px ;
 	font-family: Arial,Helvetica,sans-serif;
-	width: 183px;
+	width: 123px;
 	height: 20px;
-	padding: 0 60px;
+	padding: 0 53px;
 }
