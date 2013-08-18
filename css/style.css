@@ -458,6 +458,23 @@ div.icon_floor3{
 .icon_floor3 div.col1{
 	width: 490px;
 }
+.icon_floor3 div.col2{
+	margin-left: 509px;
+	padding-top: 70px;
+}
+.icon_floor3 div.blue{
+	width: 423px;
+	height: 280px;
+	padding: 20px;
+	background-color: #008AD0;
+	border: 1px solid #DBDBDB;
+	box-shadow: inset 1px 0px 17px rgba(0,0,0,0.15);
+}
+.icon_floor3 div.blue img{
+	display: block;
+	float: right;
+	margin-left: 15px;
+}
 .icon_floor3 div.col1 h1{
 	color: #707070;
 	font-size: 35px;
@@ -481,6 +498,7 @@ a.visit{
 	border: 1px solid rgb(0, 109, 164);
 	box-shadow: inset 0px 0px 10px rgba(0,0,0,0.2);
 }
+
 
 
 /*---------------------------icon_floor4 & icon_floor1-----------------------------------*/
