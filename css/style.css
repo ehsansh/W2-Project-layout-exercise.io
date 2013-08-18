@@ -402,7 +402,27 @@ div.footerwrapper{
 	background-color: #42495A;
 
 }
-footer{
+footer.container{
 	width: 878px;
 	min-height: 74px;
+	font-size: 12px;
+	color: #fff;
+	padding: 17px 0;
+}
+footer p{
+	font-size: 12px;
+	line-height: 18px;
+}
+footer ul{
+	padding:6px 0 6px;
+	margin: 0;
+}
+footer li{
+	list-style-type: none;
+	float: left;
+	margin-right: 11px;
+}
+footer a{
+	color: #fff;
+	text-decoration: none;
 }
