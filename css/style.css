@@ -154,6 +154,8 @@ menu.main li:hover div.submenu{
 /*-----------------------------First Slideshow-----------------------------*/
 div.slidewrapper{
 	height: 459px;
+	background-image: url('../images/slide1.jpg');
+	
 }
 
 /*-----------------------------Floor1-----------------------------*/
