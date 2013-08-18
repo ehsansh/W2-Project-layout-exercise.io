@@ -41,7 +41,7 @@ h3{
 	color: rgb(255, 255, 255);
 	display: block;
 	font-family: OpenSansLight,sans-serif;
-	font-size: 30px;
+	font-size: 18px;
 	line-height: 30px;
 	margin: 0;
 	text-transform: uppercase;
@@ -155,7 +155,7 @@ menu.main li:hover div.submenu{
 div.slidewrapper{
 	height: 459px;
 	background-image: url('../images/slide1.jpg');
-	
+
 }
 
 /*-----------------------------Floor1-----------------------------*/
@@ -427,4 +427,32 @@ footer li{
 footer a{
 	color: #fff;
 	text-decoration: none;
+}
+
+
+/*////////////////////////////ICON PAGE///////////////////////////////////*/
+
+.icon div.container{
+	width: 980px;
+}
+
+/*---------------------------icon_floor2-----------------------------------*/
+div.icon_floor2{
+	min-height: 60px;
+}
+
+/*---------------------------icon_floor3-----------------------------------*/
+
+
+/*---------------------------icon_floor4 & icon_floor1-----------------------------------*/
+div.icon_floor1,
+div.icon_floor4{
+	min-height: 207px;
+	padding: 20px 0;
+}
+.icon_floor1 div.image,
+.icon_floor4 div.image{
+	width: 245px;
+	height: 207px;
+	float: left;
 }
