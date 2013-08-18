@@ -455,6 +455,32 @@ div.icon_home{
 div.icon_floor3{
 	min-height: 393px;
 }
+.icon_floor3 div.col1{
+	width: 490px;
+}
+.icon_floor3 div.col1 h1{
+	color: #707070;
+	font-size: 35px;
+	padding-bottom: 32px;
+}
+.icon_floor3 div.col1 p{
+	color: #999;
+	font-size: 14px;
+	line-height: 20px;
+	font-family:  OpenSansRegular,sans-serif;
+	padding-bottom: 12px;
+}
+a.visit{
+	display: block;
+	background-color: rgb(0, 140, 209);
+	color: white;
+	padding: 10px 5px;
+	text-decoration: none;
+	width: 128px;
+	text-align: center;
+	border: 1px solid rgb(0, 109, 164);
+	box-shadow: inset 0px 0px 10px rgba(0,0,0,0.2);
+}
 
 
 /*---------------------------icon_floor4 & icon_floor1-----------------------------------*/
