@@ -442,6 +442,9 @@ div.icon_floor2{
 }
 
 /*---------------------------icon_floor3-----------------------------------*/
+div.icon_floor3{
+	min-height: 393px;
+}
 
 
 /*---------------------------icon_floor4 & icon_floor1-----------------------------------*/
@@ -455,4 +458,25 @@ div.icon_floor4{
 	width: 245px;
 	height: 207px;
 	float: left;
+	border-color: #DBDBDB;
+	background: #FBFBFB;
+	box-shadow: inset 1px 0px 17px rgba(20, 20, 20, 0.08);
+	color: #999;
+}
+.icon_floor1 div.image img,
+.icon_floor4 div.image img{
+	display: block;
+	padding: 30px 30px 10px 30px;
+
+}
+.icon_floor1 a,
+.icon_floor4 a{
+	display: block;
+	text-decoration: none;
+	color: #0081C1;
+	font-size: 14px ;
+	font-family: Arial,Helvetica,sans-serif;
+	width: 183px;
+	height: 20px;
+	padding: 0 60px;
 }
