@@ -27,10 +27,7 @@ h1{
 	color: rgb(255, 255, 255);	
 	font-family: OpenSansLight , sans-serif;
 	font-size: 19px;	
-	margin-bottom: 5px;
-	margin-left: 0px;
-	margin-right: 0px;
-	margin-top: 20px;
+	margin:0;
 	text-transform: uppercase;
 }
 p{
@@ -39,6 +36,15 @@ p{
 	font-family: OpenSansRegular,sans-serif;
 	font-size: 14px;
 	margin: 0px;
+}
+h3{	
+	color: rgb(255, 255, 255);
+	display: block;
+	font-family: OpenSansLight,sans-serif;
+	font-size: 30px;
+	line-height: 30px;
+	margin: 0;
+	text-transform: uppercase;
 }
 
 /*-----------------------------Header-----------------------------*/
@@ -312,22 +318,56 @@ section.floor3{
 .floor3 h1{
 	font-size: 40px;
 	text-align: center;
+	padding: 10px 0;
 }
 .floor3 p{
 	font-size: 17px;
 	text-align: center;
 }
 /*-----------------------------Floor4-----------------------------*/
+div.floor4wrapper{
+	background-color: #42495A;
+}
+
 div.floor4{	
+	padding: 30px 0;
 	height: 361px;
-	width: 879px;
+	width: 899px;
+	background-color:#313842;
 }
 .floor4 div.col{
 	width: 293px;
 	height: 361px;
+	padding-left: 20px;	
+}
+.floor4 div.col2{
+	width: 250px;
 }
 .floor4 div.col3{
 	margin-left: 586px;
+}
+.floor4 h3{
+	font-size: 18px;
+	padding-bottom: 15px;
+}
+.floor4 .col1 a{
+	display: block;
+	float: left;
+	border: 1px solid #636973;
+}
+.floor4 ul{
+	list-style-type: none;
+	padding: 0;
+}
+.floor4 .col2 li{
+	font-family: OpenSansRegular,sans-serif;
+	font-size: 14px;
+	color: #FFF;
+	padding: 15px 0;
+	border-bottom: 1px solid #636973;
+}
+.floor4 .col2 li:first-child{
+	border-top: 1px solid #636973;
 }
 
 /*-----------------------------map-----------------------------*/
