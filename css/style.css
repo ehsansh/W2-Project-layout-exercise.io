@@ -247,7 +247,7 @@ div.floor2{
 	
 }
 .floor2 section.col1 h3{
-	border: 1px solid rgba(255, 255, 255, 0.498039);
+	
 	color: rgb(255, 255, 255);
 	display: block;
 	font-family: OpenSansLight,sans-serif;
@@ -398,7 +398,11 @@ div.mapwrapper{
 
 
 /*-----------------------------footer-----------------------------*/
+div.footerwrapper{
+	background-color: #42495A;
+
+}
 footer{
 	width: 878px;
-	height: 74px;
+	min-height: 74px;
 }
