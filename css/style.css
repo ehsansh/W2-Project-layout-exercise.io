@@ -551,3 +551,50 @@ div.icon_floor4{
 	height: 20px;
 	padding: 0 53px;
 }
+
+/*////////////////////////////WEDGIT PAGE///////////////////////////////////*/
+
+.wedgit div.container{
+	width: 980px;
+}
+
+/*--------------------------------------col1-----------------------------------*/
+.wedgit_floor div.col1{
+	width: 725px;
+	padding-right: 10px;
+}
+div.wedgit_home{
+	min-height: 20px;
+}
+a.wedgit_home{
+	text-decoration: none;
+	color: #0081C1;
+}
+div.wedgit_home{
+	padding:20px 0;
+}
+.wedgit_floor .col1 h1{
+	font-size: 35px;
+	color: #707070;
+}
+.wedgit_floor .col1 h2{
+	color: #707070;
+	font-size: 26px;
+}
+.wedgit_floor .col1 p{
+	color:#999;
+	font-size: 14px;
+	line-height: 20px;
+	padding: 20px 0;
+}
+.wedgit_floor .col1 ul{
+	padding: 0;
+}
+.wedgit_floor .col1 li{
+	padding-left: 30px;
+	padding-bottom: 12px;
+	list-style-type: none;
+	color: rgb(153, 153, 153);
+	background-image: url('../images/wedgit_ul.png');
+	background-repeat: no-repeat;
+}
