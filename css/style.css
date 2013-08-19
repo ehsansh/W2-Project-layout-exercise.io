@@ -475,6 +475,21 @@ div.icon_floor3{
 	float: right;
 	margin-left: 15px;
 }
+.icon_floor3 div.blue h2{
+	font-size: 26px;
+	color: white;
+}
+.icon_floor3 div.blue ul{
+	padding: 0;
+}
+.icon_floor3 div.blue li{
+	padding-left: 30px;
+	padding-bottom: 12px;
+	list-style-type: none;
+	color: white;
+	background-image: url('../images/club_icon.png');
+	background-repeat: no-repeat;
+}
 .icon_floor3 div.col1 h1{
 	color: #707070;
 	font-size: 35px;
