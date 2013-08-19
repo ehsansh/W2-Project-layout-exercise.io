@@ -562,6 +562,7 @@ div.icon_floor4{
 .wedgit_floor div.col1{
 	width: 725px;
 	padding-right: 10px;
+	padding-bottom: 50px;
 }
 div.wedgit_home{
 	min-height: 20px;
@@ -606,11 +607,8 @@ div.wedgit_home{
 } 
 .wedgit_floor .col2 div.top{
 	margin: 29px 0 0 10px;
-
 	width: 183px;
-
-	padding: 20px;
-	
+	padding: 20px;	
 	border: 1px solid #DBDBDB;
 	background: #FBFBFB;
 	box-shadow: inset 1px 0px 17px rgba(20, 20, 20, 0.08);
@@ -642,3 +640,28 @@ a.dl_widget{
 	color: white;
 	text-decoration: none;
 }
+
+.wedgit_floor .col2 div.bottom{
+	width: 183px;	
+	margin: 20px 10px 10px 10px;
+	padding: 20px;
+	border: 1px solid #DBDBDB;
+	color: #999;
+}
+.wedgit_floor .col2 .bottom ul{
+	padding: 0;
+}
+.wedgit_floor .col2 .bottom li{
+	list-style-type: none;
+	border-top:1px solid #DEDFDE;
+}
+.wedgit_floor .col2 .bottom li:first-child{
+	border: none;
+}
+.wedgit_floor .col2 .bottom li a{
+	color: #707070;
+	text-decoration: none;
+	padding: 7px 0;
+	display: block;
+}
+
