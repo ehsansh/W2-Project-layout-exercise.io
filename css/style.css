@@ -664,4 +664,49 @@ a.dl_widget{
 	padding: 7px 0;
 	display: block;
 }
+/*////////////////////////////FEATURE PAGE///////////////////////////////////*/
 
+div.feature_floor{
+	width: 980px;
+	min-height: 100px;
+}
+
+/*--------------------------------------col1-----------------------------------*/
+.feature_floor div.col1{
+	width: 735px;
+}
+div.feature_home{
+	min-height: 20px;
+}
+a.feature_home{
+	text-decoration: none;
+	color: #0081C1;
+}
+div.feature_home{
+	padding:20px 0;
+}
+.feature_floor .col1 h1{
+	font-size: 35px;
+	color: #707070;
+}
+.feature_floor .col1 p{
+	color:#999;
+	font-size: 14px;
+	line-height: 20px;
+	padding: 20px 0;
+}
+.feature_floor .col1 a{
+	text-decoration: none;
+	color: #0081C1;
+}
+.feature_floor ul.feature_top_list{
+	padding: 0;
+}
+.feature_floor ul.feature_top_list li{
+	padding-left: 30px;
+	padding-bottom: 12px;
+	list-style-type: none;
+	color: rgb(153, 153, 153);
+	background-image: url('../images/wedgit_ul.png');
+	background-repeat: no-repeat;
+}
