@@ -598,3 +598,47 @@ div.wedgit_home{
 	background-image: url('../images/wedgit_ul.png');
 	background-repeat: no-repeat;
 }
+
+/*--------------------------------------col2-----------------------------------*/
+
+.wedgit_floor div.col2{
+	margin-left: 740px;
+} 
+.wedgit_floor .col2 div.top{
+	margin: 29px 0 0 10px;
+
+	width: 183px;
+
+	padding: 20px;
+	
+	border: 1px solid #DBDBDB;
+	background: #FBFBFB;
+	box-shadow: inset 1px 0px 17px rgba(20, 20, 20, 0.08);
+	color: #999;
+}
+.wedgit_floor div.col2 h3{
+	color: #0081C1;
+	font-size: 18px;
+	font-family: OpenSansLight,sans-serif;
+}
+.wedgit_floor div.col2 p{
+	color: rgb(153, 153, 153);
+	font-size: 14px;
+	font-family: OpenSansRegular,sans-serif;
+	line-height: 20px;
+	padding: 15px 0;
+}
+.wedgit_floor .col2 div.top img{
+	display: block;
+	padding: 14px 0 0 22px;
+}
+a.dl_widget{
+	display: block;
+	width: 134px;
+	height: 20px;
+	padding: 8px 20px;
+	border: 1px solid rgb(0, 109, 164);
+	background: #008AD0;
+	color: white;
+	text-decoration: none;
+}
