@@ -732,3 +732,12 @@ div.them_images{
 	width: 715px;
 	height: 555px;
 }
+.them_images a{
+	display: block;
+	float: left;
+	margin-right: 15px;
+	margin-bottom: 15px;
+}
+.them_images figcaption{
+	text-align: center;
+}
