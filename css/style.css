@@ -710,3 +710,21 @@ div.feature_home{
 	background-image: url('../images/wedgit_ul.png');
 	background-repeat: no-repeat;
 }
+div.feature_big_box{
+	width: 673px;
+	height: 379px;
+	padding: 20px;
+	margin: 30px 0;
+	border: 1px solid #DBDBDB;
+	background: #FBFBFB;
+	box-shadow: inset 1px 0px 17px rgba(20,20,20,0.08);
+}
+.feature_big_box h3{
+	font-size: 20px;
+	color: #888;
+	text-transform: uppercase;
+}
+.feature_big_box img{
+	display: block;
+	padding-top: 7px;
+}
