@@ -97,6 +97,9 @@ menu.main li{
 	float: left;
 	position: relative;
 	border-right: 1px solid #E0E0E0;
+	
+}
+menu.main li a{
 	border-bottom: 2px solid transparent;	
 }
 
@@ -143,9 +146,9 @@ img.search{
 	border-radius: 8px;
 	background-image: url('../images/x.png');
 	background-repeat: no-repeat;
-	position: relative;
+	position: absolute;
 	top:29px;
-	left:11px;
+	left:118px;
 	background-position: -5px -7px; 
 }
 menu.main li:hover a{
@@ -175,6 +178,8 @@ li div.submenu{
 	padding: 5px 10px;
 	background-color: #0086C6;
 	margin-top: -182px;
+
+	-moz-transition:all 300ms;
 	-webkit-transition: all 300ms;
 }
 li:hover div.submenu{
@@ -227,7 +232,19 @@ div.slidewrapper{
 div.floor1wrapper{
 	height: 338px;
 	padding: 80px 0;
+
+	background: #007BB7;
+	background: -moz-radial-gradient(center, ellipse farthest-corner, #008FD5 0%, #00689B 100%);
+	background: -o-radial-gradient(center, ellipse farthest-corner, #008FD5 0%, #00689B 100%);
+	background: -webkit-radial-gradient(center, ellipse farthest-corner, #008FD5 0%, #00689B 100%);
+	background: radial-gradient(center, ellipse farthest-corner, #008FD5 0%, #00689B 100%);
+
+
+	/*
 	background-image: -webkit-radial-gradient(50% 50%, ellipse farthest-corner, rgb(0, 143, 213) 0%, rgb(0, 104, 155) 100%);
+	background-image: -moz-radial-gradient(50% 50%, ellipse farthest-corner, rgb(0, 143, 213) 0%, rgb(0, 104, 155) 100%);
+	*/
+	
 }
 .floor1wrapper h1{
 	color: rgb(255, 255, 255);	
@@ -292,7 +309,16 @@ div.floor1wrapper{
 
 /*-----------------------------Floor2-----------------------------*/
 div.floor2wrapper{
+	/*
 	background-image: radial-gradient(at 50% 50%, rgb(104, 219, 115) 0%, rgb(47, 170, 67) 100%);
+	background-image: moz-gradient(at 50% 50%, rgb(104, 219, 115) 0%, rgb(47, 170, 67) 100%);
+	*/
+	background: #36B04A;
+	background: -moz-radial-gradient(center, ellipse farthest-corner, #4DC35C 0%, #2FAA43 100%);
+	background: -o-radial-gradient(center, ellipse farthest-corner, #4DC35C 0%, #2FAA43 100%);
+	background: -webkit-radial-gradient(center, ellipse farthest-corner, #4DC35C 0%, #2FAA43 100%);
+	background: radial-gradient(ellipse farthest-corner at center, #68DB73 0%, #2FAA43 100%);
+
 	padding: 50px 0;
 }
 div.floor2{
@@ -306,6 +332,18 @@ div.floor2{
 .floor2 div.col2 a{
 	display: block;
 	float: left;
+	-moz-transition: all 0.1s ease-out;
+	-o-transition: all 0.1s ease-out;
+	-webkit-transition: all 0.1s ease-out;
+	transition: all 0.1s ease-out;
+}
+.floor2 div.col2 a:hover{
+	box-shadow: 8px 8px 15px rgba(0,0, 0, 0.4);
+	-webkit-transform: rotate(0deg) scale(1.2);
+	-o-transform: rotate(0deg) scale(1.2);
+	-moz-transform: rotate(0deg) scale(1.2);
+	-ms-transform: rotate(0deg) scale(1.2);
+	transform: rotate(0deg) scale(1.2);
 }
 
 
@@ -376,8 +414,16 @@ div.floor2{
 
 /*-----------------------------Floor3-----------------------------*/
 div.floor3wrapper{
+	/*
 	background-image: -webkit-radial-gradient(50% 50%, ellipse farthest-corner, rgb(0, 143, 213) 0%, rgb(0, 104, 155) 100%);
-
+	background-image: -moz-radial-gradient(50% 50%, ellipse farthest-corner, rgb(0, 143, 213) 0%, rgb(0, 104, 155) 100%);
+	*/
+	background: #007BB7;
+	background: -moz-radial-gradient(center, ellipse farthest-corner, #008FD5 0%, #00689B 100%);
+	background: -o-radial-gradient(center, ellipse farthest-corner, #008FD5 0%, #00689B 100%);
+	background: -webkit-radial-gradient(center, ellipse farthest-corner, #008FD5 0%, #00689B 100%);
+	background: radial-gradient(center, ellipse farthest-corner, #008FD5 0%, #00689B 100%);
+	
 }
 section.floor3{
 	height: 507px;
