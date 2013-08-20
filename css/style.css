@@ -148,10 +148,10 @@ li.home div.wrapper{
 	position: absolute;
 	top:100%;
 	left: -198px;
-	display: block;
+	pointer-events:none;
 }
 menu.main li:hover div.wrapper{
-	display: block;
+	pointer-events:auto;
 }
 li.home div.submenu{
 	padding: 5px 10px;
