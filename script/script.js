@@ -14,6 +14,9 @@
 			if(n==currentSlide) return;
 			if(n>=$img.length) n=0;
 			if(n<0) n=$img.length-1;
+			$text.animate({opacity:0},300,function(){
+				$(this).delay(300).animate({opacity:1},300);
+			});			
 			$img.eq(n).css({zIndex:3});
 			$img.eq(n).animate({opacity:1},700);
 			$list.eq(n).addClass('active');
@@ -35,7 +38,7 @@
 		};
 	events();
     
-    $list.eq(0).css({zIndex:-3});
+   
 
 
 

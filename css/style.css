@@ -303,18 +303,16 @@ div.right_button:hover{
 }
 .slide_list li:hover{
 	background-position: 0 -30px;
-
 }
 .slideshow1 div.slide_text{
 	width: 770px;
 	height: 155px;
-	position: absolute;
-	
+	position: absolute;	
 	z-index: 30;
 	top: 245px;
 	left: 244px;
 }
- .slide_text h1{
+.slide_text h1{
  	font-size: 35px;
  	line-height: 35px;
  	font-family: OpenSansLight;
