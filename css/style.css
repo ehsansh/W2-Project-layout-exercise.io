@@ -272,6 +272,33 @@ div.right_button{
 div.right_button:hover{
 	background-position:  1px -99px;
 }
+.slideshow1 div.slide_list{
+	position: absolute;
+	height: 20px;
+	width: 140px;
+	
+	z-index: 30;
+	left: 628px;
+	top: 415px;
+}
+.slide_list ul{
+	margin: 0;
+	padding: 0;
+}
+.slide_list li{
+	background-image: url('../images/nav.png');	
+	list-style-type: none;
+	float: left;
+	width: 20px;
+	height: 20px;	
+	
+	margin-left: 5px;
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
+.slide_list li:hover{
+	background-position: 0 -30px;
+}
 
 
 /*-----------------------------Floor1-----------------------------*/

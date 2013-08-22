@@ -11,9 +11,9 @@
 			if(n>=$img.length) n=0;
 			if(n<0) n=$img.length-1;
 			$img.eq(n).css({zIndex:3});
-			$img.eq(n).animate({opacity:1},800);
+			$img.eq(n).animate({opacity:1},700);
 			$img.eq(currentSlide).css({zIndex:1});
-			$img.eq(currentSlide).animate({opacity:0},200);
+			$img.eq(currentSlide).animate({opacity:0},500);
 			currentSlide=n;
 		},
 		events=function(){
