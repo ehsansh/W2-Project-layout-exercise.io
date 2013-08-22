@@ -6,14 +6,18 @@
 		$img=$slideshow1.find('img'),
 		$pre=$slideshow1.find('.left_button'),
 		$next=$slideshow1.find('.right_button'),
+		$li=$slideshow1.find('.slide_list'),
+		$list=$li.find('li'),
 		currentSlide=0,
 		go2slide=function(n){
 			if(n>=$img.length) n=0;
 			if(n<0) n=$img.length-1;
 			$img.eq(n).css({zIndex:3});
 			$img.eq(n).animate({opacity:1},700);
+			$list.eq(n).addClass('active');
 			$img.eq(currentSlide).css({zIndex:1});
 			$img.eq(currentSlide).animate({opacity:0},500);
+			$list.eq(currentSlide).removeClass('active');
 			currentSlide=n;
 		},
 		events=function(){
@@ -22,10 +26,14 @@
 			});
 			$pre.click(function(){
 				go2slide(currentSlide-1);
-			})
+			});
+			$list.click(function(){
+				go2slide($(this).index());
+			});
 		};
 	events();
-
+    
+    $list.eq(0).css({zIndex:-3});
 
 
 

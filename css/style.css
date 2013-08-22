@@ -291,13 +291,20 @@ div.right_button:hover{
 	float: left;
 	width: 20px;
 	height: 20px;	
-	
+	cursor:pointer;
 	margin-left: 5px;
 	background-repeat: no-repeat;
 	background-position: 0 0;
 }
+.slide_list li.active{
+	background-position: 0 -60px;
+}
+.slide_list li.active:hover{
+	background-position: 0 -90px;
+}
 .slide_list li:hover{
 	background-position: 0 -30px;
+
 }
 
 
