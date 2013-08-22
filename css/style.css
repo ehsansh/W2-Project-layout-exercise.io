@@ -98,7 +98,7 @@ menu.main li{
 	float: left;
 	position: relative;
 	border-right: 1px solid #E0E0E0;
-	
+	z-index: 20;
 }
 menu.main li a{
 	border-bottom: 2px solid transparent;	
@@ -181,8 +181,7 @@ li div.submenu{
 	margin-top: -182px;
 	-moz-transition:all 300ms;
 	-webkit-transition: all 300ms;
-	z-index: 20;
-	position: relative;
+	
 }
 li:hover div.submenu{
 	margin-top: 0;	
@@ -226,6 +225,7 @@ li .submenu li:hover a{
 /*-----------------------------First Slideshow-----------------------------*/
 div.slidewrapper{
 	height: 459px;	
+
 }
 div.slideshow1{
 	height: 459px;
@@ -235,9 +235,11 @@ div.slideshow1{
 div.slidewrapper img{
 	display: block;
 	position: absolute;
+	opacity: 0;
 }
 div.slideshow1 img.first{
 	z-index: 2;
+	opacity: 1;
 }
 div.left_button{
 	position: absolute;
@@ -251,6 +253,9 @@ div.left_button{
 	left: 8%;
 	cursor:pointer;
 }
+div.left_button:hover{
+	background-position: 1px -299px;
+}
 
 div.right_button{
 	position: absolute;
@@ -263,7 +268,9 @@ div.right_button{
 	top:45%;
 	left: 89%;
 	cursor:pointer;
-
+}
+div.right_button:hover{
+	background-position:  1px -99px;
 }
 
 
