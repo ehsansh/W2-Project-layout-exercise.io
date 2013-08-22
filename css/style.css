@@ -223,6 +223,9 @@ li .submenu li:hover a{
 
 /*-----------------------------First Slideshow-----------------------------*/
 div.slidewrapper{
+	height: 459px;	
+}
+div.slideshow1{
 	height: 459px;
 	position: relative;
 	overflow: hidden;
@@ -235,26 +238,27 @@ div.left_button{
 	position: absolute;
 	width: 66px;
 	height: 66px;
-	background-image: url('../images/buttons.png');
-	background-color: gray;
+	background-image: url('../images/buttons.png');	
 	background-repeat: no-repeat;
 	background-position: 1px -199px;
 	z-index: 5;
 	top:45%;
 	left: 8%;
+	cursor:pointer;
 }
 
 div.right_button{
 	position: absolute;
 	width: 66px;
 	height: 66px;
-	background-image: url('../images/buttons.png');
-	background-color: gray;
+	background-image: url('../images/buttons.png');	
 	background-repeat: no-repeat;
 	background-position: 1px 1px;
 	z-index: 5;
 	top:45%;
 	left: 89%;
+	cursor:pointer;
+
 }
 
 
