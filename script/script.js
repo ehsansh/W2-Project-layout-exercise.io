@@ -27,6 +27,6 @@
 
 
 
-	$img.eq(0).css({zIndex:3});
+	
 
 })(window.jQuery);

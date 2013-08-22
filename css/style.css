@@ -234,6 +234,9 @@ div.slidewrapper img{
 	display: block;
 	position: absolute;
 }
+div.slideshow1 img.first{
+	z-index: 2;
+}
 div.left_button{
 	position: absolute;
 	width: 66px;
