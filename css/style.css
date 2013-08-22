@@ -224,9 +224,39 @@ li .submenu li:hover a{
 /*-----------------------------First Slideshow-----------------------------*/
 div.slidewrapper{
 	height: 459px;
-	background-image: url('../images/slide1.jpg');
-
+	position: relative;
+	overflow: hidden;
 }
+div.slidewrapper img{
+	display: block;
+	position: absolute;
+}
+div.left_button{
+	position: absolute;
+	width: 66px;
+	height: 66px;
+	background-image: url('../images/buttons.png');
+	background-color: gray;
+	background-repeat: no-repeat;
+	background-position: 1px -199px;
+	z-index: 5;
+	top:45%;
+	left: 8%;
+}
+
+div.right_button{
+	position: absolute;
+	width: 66px;
+	height: 66px;
+	background-image: url('../images/buttons.png');
+	background-color: gray;
+	background-repeat: no-repeat;
+	background-position: 1px 1px;
+	z-index: 5;
+	top:45%;
+	left: 89%;
+}
+
 
 /*-----------------------------Floor1-----------------------------*/
 div.floor1wrapper{
@@ -237,14 +267,7 @@ div.floor1wrapper{
 	background: -moz-radial-gradient(center, ellipse farthest-corner, #008FD5 0%, #00689B 100%);
 	background: -o-radial-gradient(center, ellipse farthest-corner, #008FD5 0%, #00689B 100%);
 	background: -webkit-radial-gradient(center, ellipse farthest-corner, #008FD5 0%, #00689B 100%);
-	background: radial-gradient(center, ellipse farthest-corner, #008FD5 0%, #00689B 100%);
-
-
-	/*
-	background-image: -webkit-radial-gradient(50% 50%, ellipse farthest-corner, rgb(0, 143, 213) 0%, rgb(0, 104, 155) 100%);
-	background-image: -moz-radial-gradient(50% 50%, ellipse farthest-corner, rgb(0, 143, 213) 0%, rgb(0, 104, 155) 100%);
-	*/
-	
+	background: radial-gradient(center, ellipse farthest-corner, #008FD5 0%, #00689B 100%);	
 }
 .floor1wrapper h1{
 	color: rgb(255, 255, 255);	
@@ -309,10 +332,6 @@ div.floor1wrapper{
 
 /*-----------------------------Floor2-----------------------------*/
 div.floor2wrapper{
-	/*
-	background-image: radial-gradient(at 50% 50%, rgb(104, 219, 115) 0%, rgb(47, 170, 67) 100%);
-	background-image: moz-gradient(at 50% 50%, rgb(104, 219, 115) 0%, rgb(47, 170, 67) 100%);
-	*/
 	background: #36B04A;
 	background: -moz-radial-gradient(center, ellipse farthest-corner, #4DC35C 0%, #2FAA43 100%);
 	background: -o-radial-gradient(center, ellipse farthest-corner, #4DC35C 0%, #2FAA43 100%);
@@ -414,10 +433,6 @@ div.floor2{
 
 /*-----------------------------Floor3-----------------------------*/
 div.floor3wrapper{
-	/*
-	background-image: -webkit-radial-gradient(50% 50%, ellipse farthest-corner, rgb(0, 143, 213) 0%, rgb(0, 104, 155) 100%);
-	background-image: -moz-radial-gradient(50% 50%, ellipse farthest-corner, rgb(0, 143, 213) 0%, rgb(0, 104, 155) 100%);
-	*/
 	background: #007BB7;
 	background: -moz-radial-gradient(center, ellipse farthest-corner, #008FD5 0%, #00689B 100%);
 	background: -o-radial-gradient(center, ellipse farthest-corner, #008FD5 0%, #00689B 100%);
