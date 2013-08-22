@@ -10,6 +10,7 @@
 		$list=$li.find('li'),
 		currentSlide=0,
 		go2slide=function(n){
+			if(n==currentSlide) return;
 			if(n>=$img.length) n=0;
 			if(n<0) n=$img.length-1;
 			$img.eq(n).css({zIndex:3});

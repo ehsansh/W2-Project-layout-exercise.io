@@ -275,8 +275,7 @@ div.right_button:hover{
 .slideshow1 div.slide_list{
 	position: absolute;
 	height: 20px;
-	width: 140px;
-	
+	width: 140px;	
 	z-index: 30;
 	left: 628px;
 	top: 415px;
