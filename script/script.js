@@ -7,6 +7,7 @@
 		$pre=$slideshow1.find('.left_button'),
 		$next=$slideshow1.find('.right_button'),
 		$li=$slideshow1.find('.slide_list'),
+		$text=$slideshow1.find('.slide_text'),
 		$list=$li.find('li'),
 		currentSlide=0,
 		go2slide=function(n){
