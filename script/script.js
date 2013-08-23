@@ -44,4 +44,4 @@
 
 	
 
-})(window.Zepto || window.jQuery);
+})(window.jQuery);
