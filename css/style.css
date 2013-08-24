@@ -160,18 +160,23 @@ menu.main li:hover a{
 /*-------------------------------making submenu----------------------------*/
 
 li div.wrapper{
-	width: 500px;
-	height: 177px;	
+	width: 0;
+	height: 0;	
 	overflow: hidden;
 	position: absolute;
 	top:100%;
 	left: -198px;	
-	pointer-events:none;
+	
 }
 menu.main li:hover div.wrapper{
-	pointer-events:auto;
+	width: 500px;
+	height: 177px;	
 }
 menu.main li.widget div.wrapper{
+	width: 0;
+	height: 0;
+}
+menu.main li.widget:hover div.wrapper{
 	width: 500px;
 	height: 219px;
 }
