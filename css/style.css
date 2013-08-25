@@ -165,8 +165,7 @@ li div.wrapper{
 	overflow: hidden;
 	position: absolute;
 	top:100%;
-	left: -198px;	
-	
+	left: -198px;		
 }
 menu.main li:hover div.wrapper{
 	width: 500px;
@@ -251,7 +250,7 @@ div.slideshow1 img.first{
 	z-index: 2;
 	opacity: 1;
 }
-div.left_button{
+.slideshow1 div.left_button{
 	position: absolute;
 	width: 66px;
 	height: 66px;
@@ -263,11 +262,11 @@ div.left_button{
 	left: 8%;
 	cursor:pointer;
 }
-div.left_button:hover{
+.slideshow1 div.left_button:hover{
 	background-position: 1px -299px;
 }
 
-div.right_button{
+.slideshow1 div.right_button{
 	position: absolute;
 	width: 66px;
 	height: 66px;
@@ -279,7 +278,7 @@ div.right_button{
 	left: 89%;
 	cursor:pointer;
 }
-div.right_button:hover{
+.slideshow1 div.right_button:hover{
 	background-position:  1px -99px;
 }
 .slideshow1 div.slide_list{
@@ -538,7 +537,65 @@ section.floor3{
 .floor3 p{
 	font-size: 17px;
 	text-align: center;
+	padding-bottom: 60px;
 }
+.floor3 div.slideshow2{
+	width: 1080px;
+	height: 292px;
+	position: relative;
+}
+.slideshow2 div.slides{
+	position: absolute;
+}
+.slideshow2 .slides div {	
+	float: left;
+	width: 239px;
+	height: 239px;
+	border-radius: 120px;
+	overflow: hidden;
+	border: 1px solid #0069A5;
+	margin:0 14px;
+}
+.slideshow2 .slides div a{	
+	display: block;
+}
+.slideshow2 .slides div img{
+	border-radius: 250px;
+	border: 7px solid #0071Ad;
+}
+.slideshow2 div.left_button{
+	position: absolute;
+	width: 66px;
+	height: 66px;
+	background-image: url('../images/buttons.png');	
+	background-repeat: no-repeat;
+	background-position: 1px -199px;
+	z-index: 5;
+	top:41%;
+	left: 0%;
+	cursor:pointer;
+}
+.slideshow2 div.left_button:hover{
+	background-position: 1px -299px;
+}
+
+.slideshow2 div.right_button{
+	position: absolute;
+	width: 66px;
+	height: 66px;
+	background-image: url('../images/buttons.png');	
+	background-repeat: no-repeat;
+	background-position: 1px 1px;
+	z-index: 5;
+	top:41%;
+	left: 94%;
+	cursor:pointer;
+}
+.slideshow2 div.right_button:hover{
+	background-position:  1px -99px;
+}
+
+
 /*-----------------------------Floor4-----------------------------*/
 div.floor4wrapper{
 	background-color: #42495A;
