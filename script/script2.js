@@ -21,7 +21,7 @@
 			  	 	setTimeout(function(){
 			  	 		$this.animate({left:y},aniTime);
 			  	 	},delay);
-			  	 	delay+=300;
+			  	 	delay+=200;
 			  	 });
 			  };
 			if(n>currentSlide){
