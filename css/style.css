@@ -600,6 +600,43 @@ section.floor3{
 	background-position:  1px -99px;
 }
 
+.slideshow2 div.slide_list{
+	position: absolute;
+	height: 20px;
+	width: 140px;	
+	z-index: 30;
+	left: 503px;
+	top: 267px;
+}
+.slide_list ul{
+	margin: 0;
+	padding: 0;
+}
+.slide_list li{
+	background-image: url('../images/nav.png');	
+	list-style-type: none;
+	float: left;
+	width: 20px;
+	height: 20px;	
+	cursor:pointer;
+	margin-left: 5px;
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
+.slide_list li.active{
+	background-position: 0 -60px;
+}
+.slide_list li.active:hover{
+	background-position: 0 -90px;
+}
+.slide_list li:hover{
+	background-position: 0 -30px;
+}
+
+
+
+
+
 
 /*-----------------------------Floor4-----------------------------*/
 div.floor4wrapper{

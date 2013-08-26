@@ -7,6 +7,8 @@
 		$next=$slideshow2.find('.right_button'),
 		$slides=$slideshow2.find('.slides'),
 		$divs=$slideshow2.find('.slides div'),
+		$li=$slideshow2.find('.slide_list'),	
+		$list=$li.find('li'),
 		currentSlide=0,
 		go=function(n,current){
 			var
@@ -41,14 +43,20 @@
 				$this.css({left:x});
 			});
 		},
+		changeli=function(n,currentSlide){
+			$list.eq(n).addClass('active');	
+			$list.eq(currentSlide).removeClass('active');
+		},
 		go2slide=function(n){
 			if(n>currentSlide){
 				move(n,1100);
 				go(n,currentSlide);
+				changeli(n,currentSlide);			
 				currentSlide=n;
 			}else if(n<currentSlide){
 				move(n,-1100);
 				go(n,currentSlide);
+				changeli(n,currentSlide);
 				currentSlide=n;
 			}
 		},
@@ -58,6 +66,9 @@
 			});
 			$prev.click(function(){
 				go2slide(currentSlide-1);
+			});
+			$list.click(function(){
+				go2slide($(this).index());
 			});
 		};
 
