@@ -48,6 +48,7 @@
 			$list.eq(currentSlide).removeClass('active');
 		},
 		go2slide=function(n){
+
 			if(n>currentSlide){
 				move(n,1100);
 				go(n,currentSlide);
@@ -58,26 +59,25 @@
 				go(n,currentSlide);
 				changeli(n,currentSlide);
 				currentSlide=n;
-			}
+			} 	
+
 		},
 		events=function(){
 			$next.click(function(){
-				go2slide(currentSlide+1)
+				if(currentSlide+1>=$slides.length) go2slide(0);
+				else go2slide(currentSlide+1);
 			});
 			$prev.click(function(){
-				go2slide(currentSlide-1);
+				if(currentSlide-1<0) go2slide($slides.length-1);
+				else go2slide(currentSlide-1);				
 			});
 			$list.click(function(){
 				go2slide($(this).index());
 			});
 		};
 
-		events();   
-
-
-
-
-	
+		events();  
+			
 
 })(window.jQuery);
 
