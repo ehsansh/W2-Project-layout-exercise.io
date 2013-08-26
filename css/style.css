@@ -543,11 +543,14 @@ section.floor3{
 	width: 1080px;
 	height: 292px;
 	position: relative;
+	overflow: hidden;
 }
 .slideshow2 div.slides{
 	position: absolute;
 }
-.slideshow2 .slides div {	
+.slideshow2 .slides div {
+	position: relative;
+	left:1100px;	
 	float: left;
 	width: 239px;
 	height: 239px;
@@ -555,6 +558,9 @@ section.floor3{
 	overflow: hidden;
 	border: 1px solid #0069A5;
 	margin:0 14px;
+}
+.slideshow2 div.first_slide div{
+	left: 0;
 }
 .slideshow2 .slides div a{	
 	display: block;
@@ -578,7 +584,6 @@ section.floor3{
 .slideshow2 div.left_button:hover{
 	background-position: 1px -299px;
 }
-
 .slideshow2 div.right_button{
 	position: absolute;
 	width: 66px;
