@@ -233,14 +233,15 @@ li .submenu li:hover a{
 
 /*-----------------------------First Slideshow-----------------------------*/
 div.slidewrapper{
-	height: 459px;	
-	
+	height: 459px;		
+}
+.slidewrapper div.container{
+	width: 1350px;
 }
 div.slideshow1{	
 	height: 459px;
 	position: relative;
-	overflow: hidden;
-	
+	overflow: hidden;	
 }
 div.slidewrapper img{	
 	display: block;
@@ -709,6 +710,8 @@ div.floor4{
 /*-----------------------------map-----------------------------*/
 div.mapwrapper{
 	height: 300px;
+	width: 1350px;
+	margin: 0 auto;
 }
 .icon div.headwrapper {
 border-bottom: 1px solid #E0E0E0;
