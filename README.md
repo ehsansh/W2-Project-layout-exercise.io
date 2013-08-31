@@ -7,5 +7,5 @@ This project is based on [infinite](http://www.yootheme.com/demo/wordpress/infin
 * css3
 * 1grids
 * javascript
-###License
+### License
 All rights is under [MIT License](http://opensource.org/licenses/MIT). 
