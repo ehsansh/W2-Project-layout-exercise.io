@@ -1,6 +1,6 @@
 ###My final Project for W2###
 
-See this project in action: http://ehsansh.github.io/W2_Project.io/
+See this project in action: http://ehsansh.github.io/W2-Project-layout-exercise.io/
 
 This project is based on [infinite](http://www.yootheme.com/demo/wordpress/infinite)
 ###Special Thanks to
