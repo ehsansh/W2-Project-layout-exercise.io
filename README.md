@@ -1,8 +1,8 @@
 ###My final Project for W2###
 
-See this project in action: http://ehsansh.github.io/W2-Project-layout-exercise.io/
+See this project in action: https://ehsansh.github.io/W2-Project-layout-exercise.io/
 
-This project is based on [infinite](https://www.yootheme.com/demo/wordpress/infinite)
+This project is based on [infinite](http://www.yootheme.com/demo/wordpress/infinite)
 ###Special Thanks to
 [Ali Mihandoost `AliMd`](https://github.com/AliMD)<br />
 
